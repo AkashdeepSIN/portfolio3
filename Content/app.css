@@ -7,7 +7,7 @@
 	
 	
 	
-}
+
 aside {
 	float: left;
 	border: 2px solid #e6ccff;
@@ -93,7 +93,110 @@ p#project, #secondproject, #thirdproject{
 /* background image on contact page*/
 main{
 	background: url("../Content/images/index1.png");
+	/*custum stylesheet*/
+.myclass {
+    text-align: right;
+}
+/*contact information*/
+aside {
+	float: left;
+	border: 2px solid #e6ccff;
+	margin-top: 15%;
+	margin-left: 10%;
+	width: 400px;
+	height: 650px;
+	background-color: #rgb(215, 215, 215, 0.6);
+	font-size: 2em;
+}
+/* Project heading*/
+section.row{
+	margin-top: 10%;
+}
+/* title for biodata*/
+h1{
+	text-align: center;
+	margin-top: 10%;
+	color: #ff8533;
+}
+/*main navbar*/
+.navbar-default {
+  background-color: #990000;
+  border-color: #4c816b;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#CC0000), to(#990000));
+  background-image: -webkit-linear-gradient(top, #CC0000, 0%, #990000, 100%);
+  background-image: -moz-linear-gradient(top, #CC0000 0%, #990000 100%);
+  background-image: linear-gradient(to bottom, #CC0000 0%, #990000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff74ad95', endColorstr='#ff58967c', GradientType=0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* main to the home pAGE*/
+div.id {
+	margin-bottom: 20%;
+	padding-right: 8%;
+	padding-left: 8%;
 	
+	
+}
+
+/*Footer on contact form*/
+footer {
+	text-shadow: 1px 0 1PX #F78F1E;
+	position: absolute;
+	margin-bottom: 5%;
+	margin-left: 0;
+	border: 3px solid saddlebrown;
+	font-size: 2em;
+	width: 100%;
+	height:15%;
+	overflow: hidden;
+	text-align: center; 
+	background-color: #990000;
+}
+/* image of me*/
+main.container1{
+	background: url("../Content/images/images.jpg");
+}
+/*images on project page*/
+img.banner1, .banner2, .banner3{
+	padding-top: 50px;
+}
+/* The texts in front of the project1, 2 and 3*/
+#project1 ,#project2, #project3{
+	
+	height: 600px;
+	text-align: centre;
+	
+}
+/* style to the text on project page*/
+p#project, #secondproject, #thirdproject{
+	text-align: justify;
+	color: yellowgreen;
+	padding-left:  900px;
+	margin-top:  -400px;
+	padding-right: 5%;
+	
+}
+/* background image on contact page*/
+main{
+	background: url("../Content/images/index1.png");
+	
+}
+/* Background colour on project */
+div.project1{
+	background-color: #ac7339;
+}
+/* contacts*/
+p#contact{
+	text-align: center;
+	font-size: 2em;
+}
+/* Colour to the heading on first page*/
+h1#h1{
+	color: #ffc61a;
+}
 }
 /* Background colour on project */
 div.project1{
